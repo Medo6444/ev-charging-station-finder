@@ -13,11 +13,18 @@ lib/private/private.dart
 # Android
 android/.gradle/
 android/build/
-android/app/src/main/AndroidManifest.xml
 
 # iOS
 ios/Pods/
 ios/.symlinks/
 ios/Runner.xcworkspace/
 ios/build/
-ios/Runner/AppDelegate.swift
+ios/Secrets.xcconfig
+
+# macOS or Linux generated files
+.DS_Store
+*.swp
+
+# Crashlytics/Firebase (if used)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
