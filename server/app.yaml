@@ -1,0 +1,40 @@
+runtime: nodejs20
+env: standard
+
+# Environment variables
+env_variables:
+  NODE_ENV: production
+
+# Scaling settings for free tier
+automatic_scaling:
+  min_instances: 1
+  max_instances: 10
+  min_idle_instances: 0
+  max_idle_instances: 1
+  min_pending_latency: 30ms
+  max_pending_latency: automatic
+  max_concurrent_requests: 10
+
+network:
+  session_affinity: true
+
+# Resource settings for free tier
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+
+# Health check configuration
+readiness_check:
+  path: "/health"
+  check_interval_sec: 5
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 2
+
+liveness_check:
+  path: "/health"
+  check_interval_sec: 30
+  timeout_sec: 4
+  failure_threshold: 4
+  success_threshold: 2

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "18178694838",
+    "project_id": "ev-station-finder-116f6",
+    "storage_bucket": "ev-station-finder-116f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18178694838:android:8f390759e94b65b4439017",
+        "android_client_info": {
+          "package_name": "com.example.grad02"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPRkr_yW54UMhvh0E_5rnIpjttKTcG7gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
