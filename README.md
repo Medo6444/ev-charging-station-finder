@@ -15,7 +15,7 @@ A Flutter application that helps users locate the nearest electric vehicle charg
 - Flutter & Dart
 - Node.js (backend)
 - Google Maps API
-- Firebase (optional if you used it)
+- Firebase User Management
 
 ## 🔐 Note
 
